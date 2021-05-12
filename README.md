@@ -1,7 +1,7 @@
 # Auto Hot Key Macro Controller
-A gui for setting up macros for a second keyboard
-This script allows for the user to pick a key then change its command without ever having to enter an IDE
-It also comes with a bash script to have the program run on startup
+A gui for setting up macros for a second keyboard  
+This script allows for the user to pick a key then change its command without ever having to enter an IDE  
+It also comes with a bash script to have the program run on startup  
 Uses the lua scripts from [Parrot029's Repo](https://github.com/Parrot023/Secondary_MACRO_keyboard) but could probably be replaced with the scripts from [TaranVH's Repo](https://github.com/TaranVH/2nd-keyboard/tree/master/LUAMACROS)
 
 # Main Setup -
@@ -13,7 +13,7 @@ Uses the lua scripts from [Parrot029's Repo](https://github.com/Parrot023/Second
 - This Repo
 
 ### 2. Follow the steps in [Parrot029's README](https://github.com/Parrot023/Secondary_MACRO_keyboard/blob/master/README.md)
-I would like to note that you should change the location where the key.txt file is to the folder with the Gui.ahk script
+I would like to note that you should change the location where the key.txt file is to the folder with the Gui.ahk script  
 For example -
 ```
 line 21:    local file = io.open("..\\Auto-Hot-Key-Macro-Controller\\key.txt", "w")
@@ -48,5 +48,5 @@ Hopefully everything goes as its supposed to and the program will work.
 # Extra Info
 
 #### Auto Hotkey documentation
-If you are new to Auto Hotkey you can find the documentation [here](https://www.autohotkey.com/docs/AutoHotkey.htm)
+If you are new to Auto Hotkey you can find the documentation [here](https://www.autohotkey.com/docs/AutoHotkey.htm)  
 Its an excellent tool for creating som really powerfull macros
