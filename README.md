@@ -4,7 +4,7 @@ This script allows for the user to pick a key then change its command without ev
 It also comes with a bash script to have the program run on startup
 Uses the lua scripts from [Parrot029's Repo](https://github.com/Parrot023/Secondary_MACRO_keyboard) but could probably be replaced with the scripts from [TaranVH's Repo](https://github.com/TaranVH/2nd-keyboard/tree/master/LUAMACROS)
 
-#### Main Setup -
+# Main Setup -
 
 ### 1. Download and Install Necessary Files and Programs
 - [AHK](https://www.autohotkey.com)
