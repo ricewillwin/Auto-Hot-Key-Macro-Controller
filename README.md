@@ -24,11 +24,11 @@ If you wish to have the program run on start then modify the bash file as follow
 
 Change the luamacros.exe and the lua scripts location
 ```
-start _PATH_TO_LUAMACROS_EXE_ -r "_PATH_TO_PARROTS_REPO_\Secondary_MACRO_keyboard-master\2nd_keyboard.lua" 
+start _PATH_TO_LUAMACROS_EXE_ -r "_PATH_TO_PARROTS_REPO_\Secondary_MACRO_keyboard\2nd_keyboard.lua" 
 ```
 to something more like this
 ```
-start C:\Users\johnny_appleseed\Downloads\luamacros\LuaMacros.exe -r "C:\Users\johnny_appleseed\Downloads\Secondary_MACRO_keyboard-master\2nd_keyboard.lua" 
+start C:\Users\johnny_appleseed\Downloads\luamacros\LuaMacros.exe -r "C:\Users\johnny_appleseed\Downloads\Secondary_MACRO_keyboard\2nd_keyboard.lua" 
 ```
 
 Then change the location of this REPO
