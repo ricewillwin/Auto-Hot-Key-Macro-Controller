@@ -5,20 +5,21 @@ It also comes with a bash script to have the program run on startup
 Uses the lua scripts from [Parrot029's Repo](https://github.com/Parrot023/Secondary_MACRO_keyboard) but could probably be replaced with the scripts from [TaranVH's Repo](https://github.com/TaranVH/2nd-keyboard/tree/master/LUAMACROS)
 
 ### Main Setup -
-1. Download and Install Necessary Files and Programs
+
+### 1. Download and Install Necessary Files and Programs
 - [AHK](https://www.autohotkey.com)
 - [LuaMacros](http://www.hidmacros.eu/forum/viewtopic.php?f=10&t=241#p794)
 - [Parrot029's Repo](https://github.com/Parrot023/Secondary_MACRO_keyboard)
 - This Repo
 
-2. Follow the steps in [Parrot029's README](https://github.com/Parrot023/Secondary_MACRO_keyboard/blob/master/README.md)
+### 2. Follow the steps in [Parrot029's README](https://github.com/Parrot023/Secondary_MACRO_keyboard/blob/master/README.md)
 I would like to note that you should change the location where the key.txt file is to the folder with the Gui.ahk script
 For example -
 ```
 line 21:    local file = io.open("..\\Auto-Hot-Key-Macro-Controller\\key.txt", "w")
 ```
 
-3. Modify the bash file
+### 3. Modify the bash file
 If you wish to have the program run on start then modify the bash file as follows
 
 Change the luamacros.exe and the lua scripts location
@@ -41,7 +42,7 @@ start C:\Users\johnny_appleseed\Downloads\Auto-Hot-Key-Macro-Controller\Main.ahk
 start C:\Users\johnny_appleseed\Downloads\Auto-Hot-Key-Macro-Controller\Gui.ahk
 ```
 
-4. You're Done
+### 4. You're Done
 Hopefully everything goes as its supposed to and the program will work.
 
 # Extra Info
