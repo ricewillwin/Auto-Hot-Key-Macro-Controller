@@ -27,7 +27,7 @@ start _PATH_TO_LUAMACROS_EXE_ -r "_PATH_TO_PARROTS_REPO_\Secondary_MACRO_keyboar
 ```
 to something more like this
 ```
-start C:\Users\johnny_appleseed\Downloads\Secondary_MACRO_keyboard-master\Secondary_MACRO_keyboard-master\luamacros(1)\LuaMacros.exe -r "C:\Users\johnny_appleseed\Downloads\Secondary_MACRO_keyboard-master\2nd_keyboard.lua" 
+start C:\Users\johnny_appleseed\Downloads\luamacros\LuaMacros.exe -r "C:\Users\johnny_appleseed\Downloads\Secondary_MACRO_keyboard-master\2nd_keyboard.lua" 
 ```
 
 Then change the location of this REPO
@@ -44,7 +44,7 @@ start C:\Users\johnny_appleseed\Downloads\Auto-Hot-Key-Macro-Controller\Gui.ahk
 4. You're Done
 Hopefully everything goes as its supposed to and the program will work.
 
-### Extra Info
+# Extra Info
 
 #### Auto Hotkey documentation
 If you are new to Auto Hotkey you can find the documentation [here](https://www.autohotkey.com/docs/AutoHotkey.htm)
